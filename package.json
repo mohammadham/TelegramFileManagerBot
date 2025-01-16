@@ -1,0 +1,24 @@
+{
+  "name": "cloudflare-worker",
+  "version": "1.0.0",
+  "description": "A Cloudflare Worker for handling file downloads from Telegram and links.",
+  "main": "src/worker.js",
+  "scripts": {
+    "build": "wrangler build",
+    "deploy": "wrangler publish"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "wrangler": "^1.19.0"
+  },
+  "keywords": [
+    "cloudflare",
+    "worker",
+    "telegram",
+    "file-download"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
